@@ -59,7 +59,7 @@ const Navbar = () => {
             <a href="/team" className="block px-3 py-2 text-gray-300 hover:text-white">Team</a>
             <a href="/contact" className="block px-3 py-2 text-gray-300 hover:text-white">Contact</a>
             <a
-              href="https://game.astrovia.xyz"
+              href="https://play.astrovia.xyz"
               className="block px-3 py-2 bg-primary text-white rounded-lg"
             >
               Play Game
@@ -91,7 +91,7 @@ const Hero = () => (
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://game.astrovia.xyz"
+            href="https://play.astrovia.xyz"
             className="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center gap-2"
           >
             <GameController size={24} />
